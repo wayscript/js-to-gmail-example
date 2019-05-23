@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <title>WayScript JS to Gmail Example</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write( '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>' )</script>
+    <script src="https://cdn.wayscript.com/static/js/api/wayscript.0.0.7.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+
+  <body>
+    <img src="./static/logo.png">
+
+    <br><br>
+    <div>
+      <span>Enter an Email, Subject, and Message Body, separated by commas. Click "Send" to sent the message using your WayScript Gmail program.</span>
+    </div>
+    <br>
+
+    <input id="email_input" type="text" placeholder="Enter an Email"
+           value="test@example.com,Dinner Tuesday?,Want to grab a bite Tuesday night?" style="width: 50%;">
+    <button id="button">Send</button>
+
+    <br><br>
+
+    <ul id="result"></ul>
+  </body>
+
+</html>
